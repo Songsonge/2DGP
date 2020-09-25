@@ -1,7 +1,7 @@
 from pico2d import *
 
 def handle_events():
-    global running,dx
+    global running,x,y,dx
     evts=get_events()
     for e in evts:
         if e.type==SDL_QUIT:
